@@ -1,0 +1,11 @@
+/**
+ * This file should contain frontend styles that
+ * will be applied to all module instances.
+ */
+
+.bb-gf-input.input-small {
+    width: 46px !important;
+}
+.fl-module .pp-cf7-content input.wpcf7-submit {
+    clear: both;
+}

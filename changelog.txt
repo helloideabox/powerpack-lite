@@ -1,0 +1,16 @@
+== 1.0.3 ==
+*   Release date: December 26, 2016
+*   Added new module: Business Hours
+
+== 1.0.2 ==
+*   Release date: November 25, 2016
+*   Added new module: Fancy Heading
+
+== 1.0.1 ==
+*   Release date: October 4, 2016
+*   Added new modules: Info Box, Info List
+
+
+== 1.0.0 ==
+*   Release date: September 30, 2016
+*   Initial Release

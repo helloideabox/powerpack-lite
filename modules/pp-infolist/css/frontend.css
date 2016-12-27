@@ -1,0 +1,145 @@
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.fl-builder-settings-section select[name="image_select_src"] {
+	display: none;
+}
+
+.entry-content .pp-infolist-title h3, .pp-infolist-title h3 {
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+.pp-infolist-description p {
+	margin-bottom: 15px;
+}
+.pp-infolist-description p:last-of-type {
+	margin-bottom: 0 !important;
+}
+.entry-content .pp-more-link,
+.pp-more-link {
+	box-shadow: none;
+	display: inline-block;
+	text-decoration: none;
+}
+.pp-list-item > .pp-more-link {
+	display: table;
+	margin-top: 0;
+}
+.pp-more-link {
+	color: #000;
+}
+.pp-more-link:hover {
+	text-decoration: none;
+}
+.pp-infolist-icon-inner .dashicons,
+.pp-infolist-icon-inner .dashicons-before:before {
+	height: auto;
+	width: auto;
+}
+
+/* Default layout */
+.pp-infolist-wrap .pp-list-item {
+	overflow: visible;
+	position: relative;
+	z-index: 10;
+}
+.pp-list-item:last-of-type .pp-list-connector {
+	display: none;
+}
+.pp-icon-wrapper {
+	position: relative;
+	z-index: 10;
+}
+.pp-infolist {
+	text-align: center;
+}
+.pp-infolist ul {
+	margin: 0;
+	padding: 0;
+}
+.pp-infolist-icon {
+	border-width : 0;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+.pp-infolist-icon-inner {
+	display: table;
+	height: 3em;
+	line-height: 0;
+	width: 3em;
+}
+.pp-infolist-icon span {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* Layouts */
+
+/* Layout 1 */
+.pp-infolist-wrap .layout-1 {
+	text-align: left;
+}
+.pp-infolist-wrap .pp-list-item {
+	display: table;
+	list-style: none;
+	margin-bottom: 25px;
+}
+.pp-infolist-wrap .layout-1 .pp-icon-wrapper {
+	float: left;
+	margin-right: 20px;
+}
+.pp-infolist-wrap .layout-1 .pp-heading-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* Layout 2 */
+.pp-infolist-wrap .layout-2 {
+	text-align: right;
+}
+.pp-infolist-wrap .layout-2-wrapper {
+	display: table;
+	float: right;
+	width: 100%;
+}
+.pp-infolist-wrap .layout-2-wrapper li {
+	float: right;
+	width: 100%;
+}
+.pp-infolist-wrap .layout-2 .pp-icon-wrapper {
+	float: right;
+	margin-left: 20px;
+}
+.pp-infolist-wrap .layout-2 .pp-heading-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+
+/* Layout 3 */
+.pp-infolist-wrap .layout-3 .pp-list-item {
+	display: inline-block;;
+	float: left;
+	padding: 0 20px;
+	vertical-align: top;
+}
+.pp-infolist-wrap .layout-3 .pp-icon-wrapper {
+	margin-bottom: 10px;
+}
+.pp-infolist-wrap .layout-3 .pp-list-connector {
+	height: 0;
+	left: 120px;
+	width: 100%;
+}
+.pp-infolist-wrap .layout-3 .pp-more-link {
+	width: 100%;
+}

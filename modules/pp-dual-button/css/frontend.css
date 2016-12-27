@@ -1,0 +1,121 @@
+/**
+ * This file should contain frontend styles that
+ * will be applied to all module instances.
+ */
+
+ .bb-box-input.input-small {
+     width: 46px !important;
+ }
+.fl-module .pp-dual-button-content.pp-dual-button-inner {
+    display: inline-block;
+}
+.pp-dual-button-content .pp-dual-button {
+    text-align: center;
+}
+.fl-module .pp-dual-button-content .pp-dual-button a.pp-button {
+    overflow: hidden;
+}
+.fl-module .pp-dual-button-content .pp-dual-button-1 .pp-button {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+.fl-module .pp-dual-button-content .pp-dual-button-1 .pp-button:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition-property: transform;
+    -moz-transition-property: transform;
+    -o-transition-property: transform;
+    -ms-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.fl-module .pp-dual-button-content .pp-dual-button-2 .pp-button {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+.fl-module .pp-dual-button-content .pp-dual-button-2 .pp-button:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition-property: transform;
+    -moz-transition-property: transform;
+    -o-transition-property: transform;
+    -ms-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.fl-module .pp-dual-button-content .pp-divider {
+    display: table;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translate(50%,-50%);
+    -moz-transform: translate(50%,-50%);
+    -o-transform: translate(50%,-50%);
+    -ms-transform: translate(50%,-50%);
+    transform: translate(50%,-50%);
+    line-height: 0;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    text-align: center;
+    transition: border-color ease 500ms,background ease 500ms,color ease 500ms;
+    z-index: 12;
+}
+.fl-module  .pp-dual-button-content .pp-divider-inner {
+    display: table-cell;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+.fl-module .pp-dual-button-content .pp-custom-icon {
+    display: inline-block;
+    max-width: 100%;
+    width: 1em;
+}
+
+.fl-module .pp-dual-button-content .pp-font-icon.dashicons,
+.fl-module .pp-dual-button-content .pp-font-icon.dashicons-before:before{
+    font-size: inherit;
+    height: auto;
+    line-height: inherit;
+    width: auto;
+}
+.pp-dual-button-content .pp-dual-button {
+    float:  left;
+    position: relative;
+}
+.pp-button > span {
+    height: auto;
+    vertical-align: middle;
+}

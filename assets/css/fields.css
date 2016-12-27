@@ -1,0 +1,300 @@
+.fl-builder-lightbox .fl-lightbox {
+    width: 700px;
+}
+.fl-builder-settings-tab {
+    width: 650px;
+}
+
+/* Restore BB's styling */
+.bb-powerpack .fl-builder-bar-content,
+.bb-powerpack .fl-builder-panel,
+.bb-powerpack .fl-lightbox :not(i),
+.bb-powerpack .fl-lightbox-header h1,
+.bb-powerpack .fl-builder-actions-title,
+.bb-powerpack .fl-builder-alert-lightbox .fl-lightbox-message,
+.bb-powerpack .fl-builder-panel [class^="fl-builder"] button,
+.bb-powerpack .fl-builder-panel [class^="fl-builder"] input,
+.bb-powerpack .fl-builder-panel [class^="fl-builder"] select,
+.bb-powerpack .fl-builder-panel [class^="fl-builder"] textarea,
+.bb-powerpack .fl-builder-lightbox [class^="fl-builder"] button,
+.bb-powerpack .fl-builder-lightbox [class^="fl-builder"] input,
+.bb-powerpack .fl-builder-lightbox [class^="fl-builder"] select,
+.bb-powerpack .fl-builder-lightbox [class^="fl-builder"] textarea {
+    font-family: Helvetica, Arial, Verdana, sans-serif !important;
+    speak: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    text-transform: inherit;
+    letter-spacing: inherit;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+}
+
+.bb-powerpack .fl-builder-panel [class^="fl-builder"] button,
+.bb-powerpack .fl-builder-panel [class^="fl-builder"] input,
+.bb-powerpack .fl-builder-panel [class^="fl-builder"] select,
+.bb-powerpack .fl-builder-panel [class^="fl-builder"] textarea,
+.bb-powerpack .fl-builder-lightbox [class^="fl-builder"] button,
+.bb-powerpack .fl-builder-lightbox [class^="fl-builder"] input,
+.bb-powerpack .fl-builder-lightbox [class^="fl-builder"] select,
+.bb-powerpack .fl-builder-lightbox [class^="fl-builder"] textarea {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.bb-powerpack .fl-builder-lightbox .fl-builder-settings[data-type^=pp-] input:focus,
+.bb-powerpack .fl-builder-lightbox .fl-builder-settings[data-type^=pp-] select:focus,
+.bb-powerpack .fl-builder-lightbox .fl-builder-settings[data-type^=pp-] textarea:focus {
+    border-color: #aaa !important;
+}
+
+.bb-powerpack .fl-builder-lightbox ul.as-selections li.as-original input {
+    border: inherit !important;
+}
+
+.bb-powerpack .fl-builder-lightbox .fa {
+    font-family: FontAwesome !important;
+}
+
+.bb-powerpack .fl-lightbox .ace_editor,
+.bb-powerpack .fl-lightbox .ace_editor * {
+    font-family: Monaco,Menlo,"Ubuntu Mono","Droid Sans Mono",Consolas,monospace !important;
+    ont-size: 12px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0 !important;
+    line-height: 16px !important;
+}
+
+/* Fields */
+.pp-toggle {
+    display: inline-block;
+    position: relative;
+    height: 15px;
+    width: 40px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.pp-toggle .track {
+    display: inline-block;
+    background: #ddd;
+    height: 2px;
+    width: 100%;
+    margin: auto 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.pp-toggle .thumb {
+    display: inline-block;
+    background: #333;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+.pp-toggle input {
+    display: block !important;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.pp-toggle.enabled .track {
+    background: #d2dfe6;
+}
+.pp-toggle.enabled .thumb {
+    background: #0a9ee4;
+    left: auto;
+    right: 15px;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.pp-multitext-wrap .tooltip * {
+    color: #fff !important;
+}
+span.pp-multitext {
+    display: block;
+    width: 55px;
+    margin-right: 16px;
+    float: left;
+    position: relative;
+}
+.generatepress span.pp-multitext {
+    width: 75px;
+}
+span.pp-multitext .pp-responsive-toggle {
+    display: none;
+}
+span.pp-multitext.fa-desktop {
+    width: 70px;
+    margin-right: 30px;
+}
+span.pp-multitext.fa-desktop .pp-responsive-toggle {
+    display: inline;
+}
+span.pp-multitext .pp-responsive-toggle {
+    position: absolute;
+    top: 0;
+    right: -25px;
+    cursor: pointer;
+    padding: 5px;
+}
+span.pp-multitext input[type="text"] {
+    width: 100%;
+}
+span.pp-multitext.fa input[type="text"] {
+    width: 80%;
+    padding-left: 30px;
+}
+.generatepress span.pp-multitext.fa input[type="text"] {
+    width: 100%;
+}
+span.pp-multitext.fa-desktop input[type="text"] {
+    width: 55%;
+}
+span.pp-multitext.fa-tablet,
+span.pp-multitext.fa-mobile {
+    display: none;
+}
+span.pp-multitext.fa {
+    margin-right: 30px;
+}
+.generatepress span.pp-multitext.fa {
+    margin-right: 8px;
+}
+.generatepress span.pp-multitext.fa-desktop {
+    margin-right: 30px;
+}
+
+span.pp-multitext.fa:before {
+    font-size: 12px;
+    position: absolute;
+    margin: auto 0;
+    top: 2px;
+    left: 2px;
+    padding: 3.7px 5px;
+    background: #f4f4f4;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right: 1px solid #ddd;
+    width: 13px;
+    height: 13px;
+    text-align: center;
+}
+span.pp-multitext.fa-mobile:before {
+    font-size: 16px;
+    padding: 2.2px 5px;
+}
+span.pp-multitext.fa-tablet:before {
+    font-size: 15px;
+    padding: 2.7px 5px;
+}
+span.pp-multitext.fa-long-arrow-up:before {
+    content: "T";
+    font-family: Helvetica, Verdana, sans-serif;
+}
+span.pp-multitext.fa-long-arrow-down:before {
+    content: "B";
+    font-family: Helvetica, Verdana, sans-serif;
+}
+span.pp-multitext.fa-long-arrow-left:before {
+    content: "L";
+    font-family: Helvetica, Verdana, sans-serif;
+}
+span.pp-multitext.fa-long-arrow-right:before {
+    content: "R";
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+.pp-color-picker {
+    float: left;
+    margin-right: 5px;
+}
+.pp-color-picker .fl-color-picker-clear {
+    float: right;
+}
+.pp-color-picker .pp-color-text {
+    padding: 7px 10px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    border: 1px solid #ddd;
+    background: #FAFAFA ;
+    float: left;
+    border-left: 0;
+    line-height: 1.4;
+    cursor: default;
+}
+
+.pp-switch {
+    height: 25px;
+}
+span.pp-switch-button {
+    background: #f5f5f5;
+    width: calc(100%/4.8);
+    display: inline-block;
+    float: left;
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 25px !important;
+    border: 1px solid #ddd;
+    border-right: 0;
+    cursor: pointer;
+}
+span.pp-switch-button:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+span.pp-switch-button:last-of-type {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-right: 1px solid #ddd;
+}
+span.pp-switch-button.pp-switch-active {
+    background: #2ea2cc;
+    color: #fff;
+    border: 1px solid #0074a2;
+}
+span.pp-switch-button:not(.pp-switch-active):hover {
+    background: #f1f1f1;
+}
+
+.pp-field-desc {
+    font-size: 15px !important;
+}
+.pp-pro-link {
+    color: #2ea2cc !important;
+    font-size: 15px !important;
+}
+
+#fl-builder-settings-section-title_typography,
+#fl-builder-settings-section-description_typography,
+#fl-builder-settings-section-label_typography,
+#fl-builder-settings-section-input_typography,
+#fl-builder-settings-section-button_typography {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
